@@ -7,6 +7,9 @@ angular.module('myApp')
     .when("/company", {
         templateUrl : "./views/company-profile.html"
     })
+    .when("/login", {
+        templateUrl : "./views/login.html"
+    })
     .otherwise({
         template : "<h1 style='max-width:1400px;margin:80px'>404 Page Not Found</h1>"
     });
