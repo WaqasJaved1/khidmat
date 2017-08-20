@@ -1,33 +1,33 @@
 app.controller( 'companyListCtrl', function($scope){
 	$scope.data = [
 		{
-			name: "Mohsin Ammar",
-			img: 'https://www.w3schools.com/w3images/avatar3.png',
+			name: "Microsoft",
+			img: '/img/logos/logo3.png',
+			totalProjects: "20"
+		},
+		{
+			name: "Zong",
+			img: '/img/logos/logo3.png',
+			totalProjects: "20"
+		},
+		{
+			name: "Telenor",
+			img: '/img/logos/logo3.png',
+			totalProjects: "20"
+		},
+		{
+			name: "Warid",
+			img: '/img/logos/logo3.png',
 			totalProjects: "20"
 		},
 		{
 			name: "Mohsin Ammar",
-			img: 'https://www.w3schools.com/w3images/avatar3.png',
+			img: '/img/logos/logo3.png',
 			totalProjects: "20"
 		},
 		{
 			name: "Mohsin Ammar",
-			img: 'https://www.w3schools.com/w3images/avatar3.png',
-			totalProjects: "20"
-		},
-		{
-			name: "Mohsin Ammar",
-			img: 'https://www.w3schools.com/w3images/avatar3.png',
-			totalProjects: "20"
-		},
-		{
-			name: "Mohsin Ammar",
-			img: 'https://www.w3schools.com/w3images/avatar3.png',
-			totalProjects: "20"
-		},
-		{
-			name: "Mohsin Ammar",
-			img: 'https://www.w3schools.com/w3images/avatar3.png',
+			img: '/img/logos/logo3.png',
 			totalProjects: "20"
 		}
 	]

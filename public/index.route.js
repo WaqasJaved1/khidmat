@@ -20,6 +20,10 @@ angular.module('myApp')
         templateUrl : "./views/user-list.html",
         controller: 'userListCtrl'
     })
+    .when("/company-list", {
+        templateUrl : "./views/company-list.html",
+        controller: 'companyListCtrl'
+    })
     .when("/project-details", {
         templateUrl : "./views/project-details.html",
         controller: 'projectDetailsCtrl'

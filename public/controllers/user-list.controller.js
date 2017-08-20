@@ -1,4 +1,4 @@
-app.controller( 'companyListCtrl', function($scope){
+app.controller( 'userListCtrl', function($scope){
 	$scope.data = [
 		{
 			name: "Mohsin Ammar",
