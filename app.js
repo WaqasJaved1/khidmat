@@ -26,7 +26,7 @@ app.use(function(req, res, next) { //allow cross origin requests
     next();
 });
 
-var api = require('./api/user/user');
+var api = require('./api/user');
 
 
 
