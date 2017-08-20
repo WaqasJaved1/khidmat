@@ -2,7 +2,8 @@ angular.module('myApp')
 .config(function($routeProvider) {
     $routeProvider
     .when('/', {
-        templateUrl : './views/newsfeed.html'
+        templateUrl : './views/newsfeed.html',
+        controller : 'newsfeedCtrl'
     })
     .when("/user", {
         templateUrl : "./views/user-profile.html"
@@ -12,6 +13,10 @@ angular.module('myApp')
     })
     .when("/login", {
         templateUrl : "./views/login.html"
+    })
+    .when("/user-list", {
+        templateUrl : "./views/user-list.html",
+        controller: 'userListCtrl'
     })
     .otherwise({
         template : "<h1 style='max-width:1400px;margin:80px'>404 Page Not Found</h1>"
