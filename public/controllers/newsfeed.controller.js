@@ -1,7 +1,7 @@
 app.controller( 'newsfeedCtrl', function($scope){
 	$scope.data = [
 		{
-			name: "Volenteer for SOS teching.",
+			name: "Volunteer for SOS teching.",
 			company: "Microsoft",
 			description: "Description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 			startDate: "12-Aug-17",
@@ -12,7 +12,7 @@ app.controller( 'newsfeedCtrl', function($scope){
 			venue: "NUST"
 		},
 		{
-			name: "Volenteer for SOS teching.",
+			name: "Volunteer for SOS teching.",
 			company: "Microsoft",
 			description: "Description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 			startDate: "12-Aug-17",
@@ -23,7 +23,7 @@ app.controller( 'newsfeedCtrl', function($scope){
 			venue: "NUST"
 		},
 		{
-			name: "Volenteer for SOS teching.",
+			name: "Volunteer for SOS teching.",
 			company: "Microsoft",
 			description: "Description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 			startDate: "12-Aug-17",
@@ -34,7 +34,7 @@ app.controller( 'newsfeedCtrl', function($scope){
 			venue: "NUST"
 		},
 		{
-			name: "Volenteer for SOS teching.",
+			name: "Volunteer for SOS teching.",
 			company: "Microsoft",
 			description: "Description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 			startDate: "12-Aug-17",
@@ -45,7 +45,7 @@ app.controller( 'newsfeedCtrl', function($scope){
 			venue: "NUST"
 		},
 		{
-			name: "Volenteer for SOS teching.",
+			name: "Volunteer for SOS teching.",
 			company: "Microsoft",
 			description: "Description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 			startDate: "12-Aug-17",
@@ -56,7 +56,7 @@ app.controller( 'newsfeedCtrl', function($scope){
 			venue: "NUST"
 		},
 		{
-			name: "Volenteer for SOS teching.",
+			name: "Volunteer for SOS teching.",
 			company: "Microsoft",
 			description: "Description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 			startDate: "12-Aug-17",
@@ -67,7 +67,7 @@ app.controller( 'newsfeedCtrl', function($scope){
 			venue: "NUST"
 		},
 		{
-			name: "Volenteer for SOS teching.",
+			name: "Volunteer for SOS teching.",
 			company: "Microsoft",
 			description: "Description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 			startDate: "12-Aug-17",
@@ -78,7 +78,7 @@ app.controller( 'newsfeedCtrl', function($scope){
 			venue: "NUST"
 		},
 		{
-			name: "Volenteer for SOS teching.",
+			name: "Volunteer for SOS teching.",
 			company: "Microsoft",
 			description: "Description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 			startDate: "12-Aug-17",
@@ -89,7 +89,7 @@ app.controller( 'newsfeedCtrl', function($scope){
 			venue: "NUST"
 		},
 		{
-			name: "Volenteer for SOS teching.",
+			name: "Volunteer for SOS teching.",
 			company: "Microsoft",
 			description: "Description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 			startDate: "12-Aug-17",
@@ -100,7 +100,7 @@ app.controller( 'newsfeedCtrl', function($scope){
 			venue: "NUST"
 		},
 		{
-			name: "Volenteer for SOS teching.",
+			name: "Volunteer for SOS teching.",
 			company: "Microsoft",
 			description: "Description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 			startDate: "12-Aug-17",
@@ -111,7 +111,7 @@ app.controller( 'newsfeedCtrl', function($scope){
 			venue: "NUST"
 		},
 		{
-			name: "Volenteer for SOS teching.",
+			name: "Volunteer for SOS teching.",
 			company: "Microsoft",
 			description: "Description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 			startDate: "12-Aug-17",
