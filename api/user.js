@@ -31,32 +31,32 @@ router.get('/projectprofile', function(req, res) {
 });
 
 router.put('/updatevolunteerprofile', function(req, res) {
-    userController.projectprofile(req, res);
+    userController.updatevolunteerprofile(req, res);
 });
 
 router.put('/updatecompanyprofile', function(req, res) {
-    userController.projectprofile(req, res);
+    userController.updatecompanyprofile(req, res);
 });
 
 router.put('/updateprojectprofile', function(req, res) {
-    userController.projectprofile(req, res);
+    userController.updateprojectprofile(req, res);
 });
 
 
 router.put('/requestproject', function(req, res) {
-    userController.projectprofile(req, res);
+    userController.requestproject(req, res);
 });
 
 router.put('/assignproject', function(req, res) {
-    userController.projectprofile(req, res);
+    userController.assignproject(req, res);
 });
 
 router.put('/unassignproject', function(req, res) {
-    userController.projectprofile(req, res);
+    userController.unassignproject(req, res);
 });
 
 router.put('/completeproject', function(req, res) {
-    userController.projectprofile(req, res);
+    userController.completeproject(req, res);
 });
 
 
