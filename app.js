@@ -26,8 +26,13 @@ app.use(function(req, res, next) { //allow cross origin requests
     next();
 });
 
+var api = require('./api/user/user');
+
+
 
 app.use('/libraries', express.static(__dirname + '/libraries'));
+app.use('/api', api);
+
 app.use('/', express.static(__dirname + '/public'));
 
 
