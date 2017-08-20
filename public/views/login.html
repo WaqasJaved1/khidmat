@@ -18,36 +18,19 @@
         <div class="w3-row">
             <!-- Left Column -->
             <div class="w3-col m7 w3-hide-small" style="text-align: center">
+                <div class="w3-container w3-round w3-margin">
+                    <img src="img/banner.jpg">
+                </div>
                 <h3 class="w3-container w3-round w3-margin" style="padding: 100px;background-color: rgba(244,67,54,0.7);color: white">
                     We bring good people &amp; good causes together.
                     <br>
                     Find a cause that lights you up. Get in touch with a nonprofit that needs you.
                 </h3>
-                <div class="w3-container w3-round w3-margin w3-row" style="padding: 10px;background-color: rgba(76,175,80,0.9);color: white">
-                    <div class="w3-col m6">
-                        <h3>WHY</h3>
-                        <p>We're a community: we connect people who want to change the world together.</p>
-                        <span class="fa fa-heart"></span>
-                        <h3>How</h3>
-                        <div class="w3-container">
-                            <img src="img/how.png" style="width: 100%">
-                        </div>
-                    </div>
-                    <div class="w3-col m6" style="padding: 10px">
-                        <h3>WHO</h3>
-                        <h4>116,256</h4>
-                        <p>Participating Organizations</p>
-                        <h4>12,746,829</h4>
-                        <p>Volunteers Matched</p>
-                        <h4>105,042</h4>
-                        <p>Volunteer Opportunities</p>
-                    </div>
-                </div>
             </div>
             <div style="height:130px;" class="w3-container w3-hide-medium w3-hide-large"></div>
             <!-- Middle Column -->
             <div class="w3-col m5">
-                <div class="w3-container w3-card-2 w3-round w3-margin" style="background-color: rgba(255,255,255,0.5);">
+                <div class="w3-container w3-card-2 w3-round w3-margin" style="background-color: rgba(255,255,255,0.5);" ng-show='!isShow'>
                     <br>
                     <h4>Sign Up</h4>
                     <br>
@@ -80,12 +63,52 @@
                             <button class="w3-btn w3-teal" type="submit">Register</button>
                         </div>
                         <br>
-                        <a ng-click="change">Already have an account</a>
+                        <div ng-click="change()" class="hand">Already have an account</div>
                     </form>
                 </div>
                 <!-- End Grid -->
+                <div class="w3-container w3-card-2 w3-round w3-margin" style="background-color: rgba(255,255,255,0.5);" ng-show='isShow'>
+                    <br>
+                    <h4>Sign In</h4>
+                    <br>
+                    <hr class="w3-clear">
+                    <form class="w3-container" onSubmit="return sendregisterdata()" method="POST">
+                        <label>Email</label>
+                        <!-- <label class="w3-text-red" id="alert-email">* already in use</label> -->
+                        <input class="w3-input w3-border" type="email" name="email" id="email" placeholder="Must be unique" required>
+                        <label>Password</label>
+                        <input class="w3-input w3-border" type="password" placeholder="Min 6 chars" name="password" id="password" pattern=".{6,}" title="6 characters minimum" require required>
+                        <br>
+                        <div ng-click="change()" class="hand">Don't have a account</div>
+                    </form>
+                </div>
             </div>
             <!-- End Page Container -->
+        </div>
+        <div class="w3-row">
+            <div class="w3-col m3" style="min-width: 2px; height:2px;">
+                
+            </div>
+            <div class="w3-container w3-round w3-margin w3-row w3-col m6" style="padding: 10px;background-color: rgba(76,175,80,0.9);color: white">
+                <div class="w3-col m6">
+                    <h3>WHY</h3>
+                    <p>We're a community: we connect people who want to change the world together.</p>
+                    <span class="fa fa-heart"></span>
+                    <h3>How</h3>
+                    <div class="w3-container">
+                        <img src="img/how.png" style="width: 100%">
+                    </div>
+                </div>
+                <div class="w3-col m6" style="padding: 10px">
+                    <h3>WHO</h3>
+                    <h4>116,256</h4>
+                    <p>Participating Organizations</p>
+                    <h4>12,746,829</h4>
+                    <p>Volunteers Matched</p>
+                    <h4>105,042</h4>
+                    <p>Volunteer Opportunities</p>
+                </div>
+            </div>
         </div>
         <br>
 </body>

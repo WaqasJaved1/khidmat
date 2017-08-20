@@ -12,7 +12,9 @@ angular.module('myApp')
         templateUrl : "./views/company-profile.html"
     })
     .when("/login", {
-        templateUrl : "./views/login.html"
+        templateUrl : "./views/login.html",
+        controller: 'loginCtrl'
+
     })
     .when("/user-list", {
         templateUrl : "./views/user-list.html",

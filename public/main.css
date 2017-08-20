@@ -8,3 +8,8 @@ hr{
 .margin-bottom{
 	margin-bottom: 10px;
 }
+
+.hand{
+	cursor: pointer;
+	color: red;
+}
