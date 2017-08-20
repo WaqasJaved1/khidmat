@@ -8,22 +8,41 @@
             </header>
             <div class="w3-modal-body" style="padding:5%;">
                 <p>Redirecting please wait
-                <span><i class="fa fa-spinner w3-spin w3-right w3-medium" style="padding:1%;font-size:64px"></i></span></p>
+                    <span><i class="fa fa-spinner w3-spin w3-right w3-medium" style="padding:1%;font-size:64px"></i></span></p>
             </div>
         </div>
     </div>
-    
-    
     <!-- Page Container -->
     <div class="w3-container w3-content" style="max-width:1400px;background-image: url('img/front2.png');background-attachment:fixed;">
         <!-- The Grid -->
         <div class="w3-row">
             <!-- Left Column -->
-            <div class="w3-col m7 w3-hide-small">
-                <div class="w3-container w3-white w3-round w3-margin">
-                    <!-- <img src="./img/front.png " class="w3-padding" width="100%"> -->
+            <div class="w3-col m7 w3-hide-small" style="text-align: center">
+                <h3 class="w3-container w3-round w3-margin w3-red" style="padding: 100px">
+                    We bring good people &amp; good causes together.
+                    <br>
+                    Find a cause that lights you up. Get in touch with a nonprofit that needs you.
+                </h3>
+                <div class="w3-container w3-round w3-margin w3-green w3-row" style="padding: 10px">
+                    <div class="w3-col m6">
+                        <h3>WHY</h3>
+                        <p>We're a community: we connect people who want to change the world together.</p>
+                        <span class="fa fa-heart"></span>
+                        <h3>How</h3>
+                        <div class="w3-container">
+                            <img src="img/how.png" style="width: 100%">
+                        </div>
+                    </div>
+                    <div class="w3-col m6" style="padding: 10px">
+                        <h3>WHO</h3>
+                        <h4>116,256</h4>
+                        <p>Participating Organizations</p>
+                        <h4>12,746,829</h4>
+                        <p>Volunteers Matched</p>
+                        <h4>105,042</h4>
+                        <p>Volunteer Opportunities</p>
+                    </div>
                 </div>
-                <br>
             </div>
             <div style="height:130px;" class="w3-container w3-hide-medium w3-hide-large"></div>
             <!-- Middle Column -->
@@ -44,7 +63,7 @@
                             <input style="margin-left:2%;" class="w3-input w3-border" type="text" name="last_name" required>
                         </div>
                         <label>Email</label>
-                        <label class="w3-text-red" id="alert-email">* already in use</label>
+                        <!-- <label class="w3-text-red" id="alert-email">* already in use</label> -->
                         <input class="w3-input w3-border" type="email" name="email" id="email" placeholder="Must be unique" required>
                         <label>Password</label>
                         <input class="w3-input w3-border" type="password" placeholder="Min 6 chars" name="password" id="password" pattern=".{6,}" title="6 characters minimum" require required>
