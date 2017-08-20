@@ -30,9 +30,36 @@ router.get('/projectprofile', function(req, res) {
     userController.projectprofile(req, res);
 });
 
-router.put('/updateprofile', function(req, res) {
+router.put('/updatevolunteerprofile', function(req, res) {
     userController.projectprofile(req, res);
 });
+
+router.put('/updatecompanyprofile', function(req, res) {
+    userController.projectprofile(req, res);
+});
+
+router.put('/updateprojectprofile', function(req, res) {
+    userController.projectprofile(req, res);
+});
+
+
+router.put('/requestproject', function(req, res) {
+    userController.projectprofile(req, res);
+});
+
+router.put('/assignproject', function(req, res) {
+    userController.projectprofile(req, res);
+});
+
+router.put('/unassignproject', function(req, res) {
+    userController.projectprofile(req, res);
+});
+
+router.put('/completeproject', function(req, res) {
+    userController.projectprofile(req, res);
+});
+
+
 
 
 

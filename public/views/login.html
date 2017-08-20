@@ -13,17 +13,17 @@
         </div>
     </div>
     <!-- Page Container -->
-    <div class="w3-container w3-content" style="max-width:1400px;background-image: url('img/front2.png');background-attachment:fixed;">
+    <div class="w3-container w3-content" style="max-width:1400px;background-image: url('img/front.png');background-attachment:fixed;">
         <!-- The Grid -->
         <div class="w3-row">
             <!-- Left Column -->
             <div class="w3-col m7 w3-hide-small" style="text-align: center">
-                <h3 class="w3-container w3-round w3-margin w3-red" style="padding: 100px">
+                <h3 class="w3-container w3-round w3-margin" style="padding: 100px;background-color: rgba(244,67,54,0.7);color: white">
                     We bring good people &amp; good causes together.
                     <br>
                     Find a cause that lights you up. Get in touch with a nonprofit that needs you.
                 </h3>
-                <div class="w3-container w3-round w3-margin w3-green w3-row" style="padding: 10px">
+                <div class="w3-container w3-round w3-margin w3-row" style="padding: 10px;background-color: rgba(76,175,80,0.9);color: white">
                     <div class="w3-col m6">
                         <h3>WHY</h3>
                         <p>We're a community: we connect people who want to change the world together.</p>
@@ -47,11 +47,10 @@
             <div style="height:130px;" class="w3-container w3-hide-medium w3-hide-large"></div>
             <!-- Middle Column -->
             <div class="w3-col m5">
-                <div class="w3-container w3-card-2 w3-white w3-round w3-margin">
+                <div class="w3-container w3-card-2 w3-round w3-margin" style="background-color: rgba(255,255,255,0.5);">
                     <br>
                     <h4>Sign Up</h4>
                     <br>
-                    <h6>Join the dream place</h6>
                     <hr class="w3-clear">
                     <form class="w3-container" onSubmit="return sendregisterdata()" method="POST">
                         <div class="w3-half" style="">
@@ -73,11 +72,6 @@
                         <label class="w3-validate">Male</label>
                         <input class="w3-radio" type="radio" name="gender" value="female">
                         <label class="w3-validate">Female</label>
-                        <select style="margin-top:2%" class="w3-select" name="selected_country" required>
-                            <option disabled selected>Country</option>
-                            <option ng-repeat="x in Country_name">{{x}}</option>
-                        </select>
-                        <br>
                         <br>
                         <label>Date of birth</label>
                         <input type="date" name="bday" required></input>
@@ -86,6 +80,7 @@
                             <button class="w3-btn w3-teal" type="submit">Register</button>
                         </div>
                         <br>
+                        <a ng-click="change">Already have an account</a>
                     </form>
                 </div>
                 <!-- End Grid -->
