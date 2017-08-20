@@ -1,6 +1,9 @@
 angular.module('myApp')
 .config(function($routeProvider) {
     $routeProvider
+    .when('/', {
+        templateUrl : './views/newsfeed.html'
+    })
     .when("/user", {
         templateUrl : "./views/user-profile.html"
     })
