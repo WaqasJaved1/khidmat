@@ -1,4 +1,4 @@
-<body class="w3-theme-l5" ng-app="profile" ng-controller="profile_controller">
+<body class="w3-theme-l5">
     <!--Login Successfull alert-->
     <div id="id01" class="w3-modal" style="width:">
         <div class="w3-modal-content w3-card-4" style="width:30%;height:30%;">
@@ -13,38 +13,15 @@
         </div>
     </div>
     
-    <div class="w3-top">
-        <form class="w3-container" onSubmit="return dologin()" name="loginform" method="POST">
-            <ul class="w3-navbar w3-hide-large w3-hide-medium w3-theme-d2 w3-right-align w3-large">
-                <li><a href="index.html" class="w3-padding-large w3-theme-d4">Programmer Book</a></li>
-                <li class="w3-right">
-                    <a class="w3-hover-white" title="My Account">
-                        <input type="email" placeholder="Email" required></input>
-                    </a>
-                </li>
-                <li class="w3-right">
-                    <a class="w3-hover-white" title="My Account">
-                        <input type="password" placeholder="Password" required></input>
-                    </a>
-                </li>
-                <li class="w3-right" style="margin-top:0.8%;">
-                    <label id="errorlogin2">* Wrong email or password</label>
-                </li>
-                <li class="w3-right">
-                    <button style="width:100%;" class="w3-padding-large w3-hover-white w3-btn w3-teal" title="My Account">Login</button>
-
-                </li>
-            </ul>
-        </form>
-    </div>
+    
     <!-- Page Container -->
-    <div class="w3-container w3-content" style="max-width:1400px;margin-top:70px">
+    <div class="w3-container w3-content" style="max-width:1400px;margin-top:70px;background-image: url('img/front2.png');">
         <!-- The Grid -->
         <div class="w3-row">
             <!-- Left Column -->
             <div class="w3-col m7 w3-hide-small">
-                <div class="w3-container w3-card-2 w3-white w3-round w3-margin">
-                    <img src="./Icons/tech.png " class="w3-padding" width="100%">
+                <div class="w3-container w3-white w3-round w3-margin">
+                    <!-- <img src="./img/front.png " class="w3-padding" width="100%"> -->
                 </div>
                 <br>
             </div>
@@ -53,7 +30,6 @@
             <div class="w3-col m5">
                 <div class="w3-container w3-card-2 w3-white w3-round w3-margin">
                     <br>
-                    <img src="./Icons/icon-reflective.png" alt="Avatar" class="w3-left w3-circle w3-margin-right w3-hide-small " style="width:60px">
                     <h4>Sign Up</h4>
                     <br>
                     <h6>Join the dream place</h6>
