@@ -1,0 +1,22 @@
+<div class="w3-row w3-margin">
+		<div class="w3-quarter w3-container margin-bottom" ng-repeat="user in data">
+			<div class="w3-card-4">
+				<img ng-src="{{user.img}}" alt="Avatar" style="width:100%;opacity:0.85">
+				<div class="w3-container">
+					<h4><a href = "#!/user"><b>{{user.name}}</b></a></h4>
+					<p></p>
+					<div>
+						Rating:
+						<i class="fa fa-star w3-text-yellow" aria-hidden="true"></i>
+						<i class="fa fa-star w3-text-yellow" aria-hidden="true"></i>
+						<i class="fa fa-star w3-text-yellow" aria-hidden="true"></i>
+						<i class="fa fa-star w3-text-yellow" aria-hidden="true"></i>
+						<i class="fa fa-star-o" aria-hidden="true"></i>
+					</div>
+					<p>
+						<b>Total Projects: </b> {{user.totalProjects}}
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
