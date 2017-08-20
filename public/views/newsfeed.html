@@ -1,14 +1,21 @@
-<div >
-	<div class="w3-card-4">
-		<header class="w3-container w3-light-grey">
-			<h3>John Doe</h3>
-		</header>
-		<div class="w3-container">
-			<p>1 new friend request</p>
-			<hr>
-			<img src="img_avatar3.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
-			<p>CEO at Mighty Schools. Marketing and Advertising. Seeking a new job and new opportunities.</p><br>
+<div class="w3-row w3-margin">
+	<div class="w3-quarter w3-container margin-bottom" ng-repeat = "project in data">
+		<div class="w3-card-4">
+			<header class="w3-container w3-light-grey">
+				<h4>{{project.name}}</h4>
+			</header>
+			<div class="w3-container">
+				<p>
+					By 
+					<b>{{project.company}}</b>
+				</p>
+				<hr>
+				<p>{{project.description}}</p><br>
+				<b>Venue:</b> NUST <br>
+				<b>Date:</b> 20-Aug-17  -  21-Aug-17 <br>
+				<b>Time: </b> 12:00 AM  -  01:00 PM  <br>
+				<b>Required Voulenteers: </b> 10  <br>			</div> 
+			<button class="w3-button w3-block w3-dark-grey margin-top">+ Volenteer</button>
 		</div>
-		<button class="w3-button w3-block w3-dark-grey">+ Connect</button>
 	</div>
 </div>
