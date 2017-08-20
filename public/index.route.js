@@ -18,6 +18,10 @@ angular.module('myApp')
         templateUrl : "./views/user-list.html",
         controller: 'userListCtrl'
     })
+    .when("/project-details", {
+        templateUrl : "./views/project-details.html",
+        controller: 'projectDetailsCtrl'
+    })
     .otherwise({
         template : "<h1 style='max-width:1400px;margin:80px'>404 Page Not Found</h1>"
     });
